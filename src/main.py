@@ -1,6 +1,6 @@
 import fastapi as _fastapi
 import sqlalchemy.orm as _orm
-import main.services.services as _services, main.repositories.schema as _schema
+import services.services as _services, models.schema as _schema
 
 app = _fastapi.FastAPI()
 
